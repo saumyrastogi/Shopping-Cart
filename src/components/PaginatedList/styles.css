@@ -1,0 +1,39 @@
+.link {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.link > h3 {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.list {
+  height: 250px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.active {
+  color: black;
+}
+
+.inactive {
+  color: grey;
+}
+
+.list_container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 80%;
+}
